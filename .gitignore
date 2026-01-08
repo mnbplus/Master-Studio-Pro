@@ -1,0 +1,35 @@
+# --- Python 标准忽略 ---
+__pycache__
+.py[cod]
+$py.class
+.log
+
+# --- 虚拟环境 (如果有) ---
+venv
+env
+.env
+
+# --- 项目特定的二进制文件 (核心) ---
+# 架构原则 永远不要把 huge binaries (ffmpegyt-dlp) 传到代码库
+# 你的 DependencyManager 会在用户第一次运行时自动下载它们
+binffmpeg.exe
+binffprobe.exe
+binyt-dlp.exe
+binffmpeg_temp.zip
+
+# --- 用户数据与隐私 ---
+# 只有你自己需要的配置，别人的电脑不需要
+logs
+data.db
+data.txt
+datasettings.json
+crash_log.txt
+
+# --- 操作系统垃圾文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 即使忽略目录，也保留文件夹结构 ---
+!bin.gitkeep
+!data.gitkeep
+!logs.gitkeep

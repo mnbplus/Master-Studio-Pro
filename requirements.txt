@@ -1,0 +1,6 @@
+PyQt6>=6.5.0
+yt-dlp>=2023.11.16
+psutil>=5.9.0
+flask>=3.0.0
+flask-cors>=4.0.0
+requests>=2.31.0
